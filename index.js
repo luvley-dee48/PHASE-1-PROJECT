@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', function () {
                 quoteContainer.innerHTML = '<p>Failed to fetch quote. Please try again later.</p>';
             });
     });
-    // const downloadButton = document.getElementById('download-btn');
-    // downloadButton.addEventListener('click', function () {
-    //     alert('Downloading quote...');
-    // });
+    const downloadButton = document.getElementById('download-btn');
+    downloadButton.addEventListener('click', function () {
+        alert('Downloading quote...');
+    });
     // const favoriteButton = document.getElementById('favorite-btn');
     // favoriteButton.addEventListener('click', function () {
     //     alert('Added to favorites!');
