@@ -22,12 +22,12 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   });
 
-//   likeButton.addEventListener("click", function () {
+  likeButton.addEventListener("click", function () {
     
-//     likeCount++;
+    likeCount++;
     
-//     document.getElementById("like-count").textContent = likeCount;
-//   });
+    document.getElementById("like-count").textContent = likeCount;
+  });
 
   const downloadButton = document.getElementById("download-btn");
   downloadButton.addEventListener("click", function () {
