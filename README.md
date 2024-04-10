@@ -32,3 +32,9 @@ https://github.com/luvley-dee48/PHASE-1-PROJECT
 4. Set up HTML file for the user interface.
 
 5. Include necessary CSS and Javascript files.
+
+## Technologies used
+
+1. JS
+2. CSS
+3. HTML
