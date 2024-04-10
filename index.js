@@ -36,17 +36,17 @@ document.addEventListener("DOMContentLoaded", function () {
     
   });
   
-//   function downloadQuote(quote) {
-//     const blob = new Blob([quote], { type: "text/plain" });
-//     const url = URL.createObjectURL(blob);
-//     const a = document.createElement("a");
-//     a.href = url;
-//     a.download = "quote.txt";
-//     document.body.appendChild(a);
-//     a.click();
-//     document.body.removeChild(a);
-//     URL.revokeObjectURL(url);
-//   }
+  function downloadQuote(quote) {
+    const blob = new Blob([quote], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "quote.txt";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
   const shareButton = document.getElementById("share-btn");
   shareButton.addEventListener("click", function () {
  if (navigator.share) {
