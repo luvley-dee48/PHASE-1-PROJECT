@@ -38,3 +38,8 @@ https://github.com/luvley-dee48/PHASE-1-PROJECT
 1. JS
 2. CSS
 3. HTML
+
+## Support and contact details
+
+Incase of any query, need for collaboration or issues with this code, feel free to reach me at
+<dennis.kiboi@moringaschool.com>
