@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', function () {
     downloadButton.addEventListener('click', function () {
         alert('Downloading quote...');
     });
-    // const favoriteButton = document.getElementById('favorite-btn');
-    // favoriteButton.addEventListener('click', function () {
-    //     alert('Added to favorites!');
-    // });
-    // const shareButton = document.getElementById('share-btn');
-    // shareButton.addEventListener('click', function() {
-    //     alert('sharing quote...')
-    // });
+    const favoriteButton = document.getElementById('favorite-btn');
+    favoriteButton.addEventListener('click', function () {
+        alert('Added to favorites!');
+    });
+    const shareButton = document.getElementById('share-btn');
+    shareButton.addEventListener('click', function() {
+        alert('sharing quote...')
+    });
 });
