@@ -33,6 +33,11 @@ https://github.com/luvley-dee48/PHASE-1-PROJECT
 
 5. Include necessary CSS and Javascript files.
 
+#### Live Link
+```bash
+ https://luvley-dee48.github.io/PHASE-1-PROJECT/
+ ```
+
 ## Technologies used
 
 1. JS
