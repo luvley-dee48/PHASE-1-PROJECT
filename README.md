@@ -44,6 +44,11 @@ https://github.com/luvley-dee48/PHASE-1-PROJECT
 Incase of any query, need for collaboration or issues with this code, feel free to reach me at
 <dennis.kiboi@moringaschool.com>
 
+### Credits
+
+- Dennis Kiboi(collaborator)
+
+
 ## Licence
 
 MIT License
