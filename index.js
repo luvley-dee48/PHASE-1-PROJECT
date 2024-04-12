@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const quote = data[0].quote;
         const author = data[0].author;
 
-        // Update the dsplayed quote in the browser
+        // then Update the dsplayed quote in the browser
         quoteContainer.innerHTML = `<p>"${quote}" - ${author}</p>`;
       })
       .catch((error) => {
